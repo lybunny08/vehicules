@@ -25,6 +25,7 @@ class AugmentedReality extends StatelessWidget {
                 src: product.object3d,
                 ar: true,
                 disableZoom: false,
+                arScale: ArScale.fixed,
               ),
             );
           } else {
